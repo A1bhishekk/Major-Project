@@ -36,7 +36,7 @@ const Home = () => {
                 <Heading
                     textAlign={'center'}
                     fontFamily="body"
-                    color={'yellow.400'}
+                    color={'teal.400'}
                     children="OUR BRANDS"
                 />
                 <HStack
