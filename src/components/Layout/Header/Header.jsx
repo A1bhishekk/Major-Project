@@ -28,8 +28,8 @@ const Header = () => {
       <Button
         onClick={onOpen}
         colorScheme={'teal'}
-        width={['12','12']}
-        height={['12','12']}
+        width={['10','12']}
+        height={['10','12']}
         rounded="full"
         zIndex={'overlay'}
         position={'fixed'}
