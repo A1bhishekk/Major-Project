@@ -5,6 +5,7 @@ import Footer from "./components/Layout/Footer/Footer"
 import Courses from "./components/Courses/Courses"
 import Login from "./components/Auth/Login"
 import Register from "./components/Auth/Register"
+import ForgetPassword from "./components/Auth/ForgetPassword"
 const App = () => {
   return (
     <Router>
@@ -14,6 +15,8 @@ const App = () => {
         <Route path="/courses" element={<Courses />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/forgetpassword" element={<ForgetPassword />} />
+
 
       </Routes>
       <Footer/>
