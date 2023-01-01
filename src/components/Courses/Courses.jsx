@@ -10,7 +10,7 @@ import {
     VStack,
 } from '@chakra-ui/react';
 import bg from '../../assets/images/bg.jpg';
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const Course = ({
@@ -85,6 +85,7 @@ const Course = ({
 const Courses = () => {
     const [keyword, setKeyword] = useState('');
     const [category, setCategory] = useState('');
+    console.log(category)
 
     const addToPlaylistHandler = () => {
         console.log('Added to playlist');
