@@ -20,9 +20,10 @@ const Home = () => {
                 >
                     <VStack width={"full"} alignItems={['center', 'flex-end']}>
                         <Heading children="LEARN FROM THE EXPERTS" size={'2xl'} />
-                        <Text children="Find Valuable Courses and Tutorials from the best in the industry" />
+                        <Text children="Find Valuable Courses and Tutorials from the best in the industry" color={"pink.400"}/>
+                        <Text children="At Reasonable Price" alignSelf={['flex-start', 'flex-end']}color={"pink.400"}/>
                         <Link to="/courses">
-                            <Button size={'lg'} colorScheme="teal" mt={4}>Explore Now</Button>
+                            <Button size={'lg'} colorScheme="teal" mt={6}>Explore Now</Button>
                         </Link>
                     </VStack>
 

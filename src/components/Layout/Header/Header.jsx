@@ -1,14 +1,4 @@
-import {
-  Button,
-  Drawer,
-  DrawerBody,
-  DrawerContent,
-  DrawerHeader,
-  DrawerOverlay,
-  HStack,
-  useDisclosure,
-  VStack,
-} from '@chakra-ui/react';
+import { Button, Drawer, DrawerBody, DrawerContent, DrawerHeader, DrawerOverlay, HStack, useDisclosure, VStack } from '@chakra-ui/react';
 import React from 'react';
 import { ColorModeSwitcher } from '../../../ColorModeSwitcher';
 import { RiDashboardFill, RiLogoutBoxLine, RiMenu5Fill } from 'react-icons/ri';
@@ -27,11 +17,8 @@ const Header = () => {
     role: 'admin'
   }
 
-
-
   const logoutHandler = () => {
     onClose();
-    // dispatch(logout());
   };
 
   return (
@@ -40,9 +27,9 @@ const Header = () => {
 
       <Button
         onClick={onOpen}
-        colorScheme={'yellow'}
-        width="10"
-        height={'10'}
+        colorScheme={'teal'}
+        width={['12','12']}
+        height={['12','12']}
         rounded="full"
         zIndex={'overlay'}
         position={'fixed'}
