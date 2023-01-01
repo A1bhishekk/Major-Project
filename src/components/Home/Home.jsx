@@ -1,11 +1,11 @@
 import { Box, Button, Heading, HStack, Image, Stack, Text, VStack } from '@chakra-ui/react'
 import { Link } from 'react-router-dom'
 import './Home.css'
-import vg from '../assets/images/bg.jpg'
+import vg from '../../assets/images/bg.jpg'
 import { CgGoogle, CgYoutube } from 'react-icons/cg';
 import { SiCoursera, SiUdemy } from 'react-icons/si';
 import { DiAws } from 'react-icons/di';
-import introVideo from '../assets/videos/intro.mp4';
+import introVideo from '../../assets/videos/intro.mp4';
 
 const Home = () => {
     return (
@@ -22,7 +22,7 @@ const Home = () => {
                         <Heading children="LEARN FROM THE EXPERTS" size={'2xl'} />
                         <Text children="Find Valuable Courses and Tutorials from the best in the industry" />
                         <Link to="/courses">
-                            <Button size={'lg'} colorScheme="whatsapp" mt={4}>Explore Now</Button>
+                            <Button size={'lg'} colorScheme="teal" mt={4}>Explore Now</Button>
                         </Link>
                     </VStack>
 
