@@ -2,3 +2,25 @@
 ::-webkit-scrollbar{
     display: none;
 }
+.linkedin svg{
+    color: #0077b5;
+}
+
+.linkedin svg:hover{
+    color: #014c75;
+}
+.github svg{
+    color: rgb(29, 234, 138);
+}
+
+.github svg:hover{
+    color: rgb(0, 255, 0);
+}
+
+.instagram svg{
+    color: #e1306c;
+}
+
+.instagram svg:hover{
+    color: #c13584;
+}

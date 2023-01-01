@@ -42,7 +42,7 @@ const Header = () => {
       <Drawer placement="left" onClose={onClose} isOpen={isOpen}>
         <DrawerOverlay />
         <DrawerContent>
-          <DrawerHeader borderBottomWidth={'1px'}>Technical Abhi</DrawerHeader>
+          <DrawerHeader borderBottomWidth={'1px'} color="teal.400">TECHNICAL ABHI</DrawerHeader>
 
           <DrawerBody>
             <VStack spacing={'4'} alignItems="flex-start">
@@ -71,11 +71,13 @@ const Header = () => {
                     <VStack>
                       <HStack>
                         <Link onClick={onClose} to="/profile">
-                          <Button variant={'ghost'} colorScheme={'yellow'}>
+                          <Button variant={'ghost'} colorScheme={'teal'}>
                             Profile
                           </Button>
                         </Link>
-                        <Button variant={'ghost'} onClick={logoutHandler}>
+                        <Button variant={'ghost'} onClick={logoutHandler} 
+                        colorScheme={'red'}
+                        >
                           <RiLogoutBoxLine />
                           Logout
                         </Button>
