@@ -18,7 +18,7 @@ const Home = () => {
                     alignItems="center"
                     spacing={['0', '56']}
                 >
-                    <VStack width={"full"} alignItems={['center', 'flex-end']}>
+                    <VStack width={"full"} alignItems={['center', 'flex-end']} mr={['0','4']}>
                         <Heading children="LEARN FROM THE EXPERTS" size={'2xl'} />
                         <Text children="Find Valuable Courses and Tutorials from the best in the industry" color={"gray.400"}/>
                         <Text children="At Reasonable Price" alignSelf={['flex-start', 'flex-end']}color={"gray.400"}/>
