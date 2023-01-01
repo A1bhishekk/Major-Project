@@ -1,7 +1,7 @@
 import { Box, Button, Heading, HStack, Image, Stack, Text, VStack } from '@chakra-ui/react'
 import { Link } from 'react-router-dom'
 import './Home.css'
-import vg from '../assets/images/bg.png'
+import vg from '../assets/images/bg.jpg'
 import { CgGoogle, CgYoutube } from 'react-icons/cg';
 import { SiCoursera, SiUdemy } from 'react-icons/si';
 import { DiAws } from 'react-icons/di';
@@ -16,19 +16,21 @@ const Home = () => {
                     height="100vh"
                     justifyContent={['center', 'space-between']}
                     alignItems="center"
-                    spacing={['16', '56']}
+                    spacing={['0', '56']}
                 >
                     <VStack width={"full"} alignItems={['center', 'flex-end']}>
                         <Heading children="LEARN FROM THE EXPERTS" size={'2xl'} />
                         <Text children="Find Valuable Courses and Tutorials from the best in the industry" />
                         <Link to="/courses">
-                            <Button size={'lg'} colorScheme="whatsapp">Explore Now</Button>
+                            <Button size={'lg'} colorScheme="whatsapp" mt={4}>Explore Now</Button>
                         </Link>
                     </VStack>
 
-                    <Image boxSize={'md'} src={vg} objectFit={"contain"} />
-                </Stack>
+                    <Image boxSize={'md'} src={vg} objectFit={['contain','contain']} />
+                </Stack> 
+                
             </div>
+            
             <Box padding={'8'} bg="blackAlpha.800">
                 <Heading
                     textAlign={'center'}
@@ -58,6 +60,8 @@ const Home = () => {
                     src={introVideo}
                 ></video>
             </div>
+
+           
         </section>
     )
 }
