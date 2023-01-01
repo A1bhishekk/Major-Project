@@ -11,6 +11,9 @@ const Home = () => {
     return (
         <section className="home">
             <div className="container">
+            <header>
+            <span data-text="Technical Abhi">Technical Abhi</span>
+            </header>
                 <Stack
                     direction={['column', 'row']}
                     height="100vh"

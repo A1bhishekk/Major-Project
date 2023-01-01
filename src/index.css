@@ -24,3 +24,51 @@
 .instagram svg:hover{
     color: #c13584;
 }
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    /* color: rgb(41, 236, 174); */
+    margin-top: 30px;
+}
+
+
+span {
+    color: #000;
+    font-size: 1.9rem;
+    font-weight: 900;
+    margin-left: 10px;
+    position: relative;
+    -webkit-text-stroke: 1px rgb(41, 236, 174);;
+    text-transform: uppercase;
+  }
+  
+  span::before {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    color: rgb(41, 236, 174);;
+    -webkit-text-stroke: 0px #fff;
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+  }
+  
+  @keyframes animate {
+  
+    0%,
+    10%,
+    100% {
+      width: 0;
+    }
+  
+    70%,
+    90% {
+      width: 100%;
+    }
+  
+  }
