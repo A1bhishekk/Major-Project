@@ -26,7 +26,7 @@ const Login = () => {
     };
 
     return (
-        <Container minH={["64vh","74vh"]}>
+        <Container h={"100vh"}>
             <VStack  justifyContent="center" spacing={'26'} alignItems="center" mt={40}>
                 <Heading children={'Technical Abhi'} />
 
