@@ -48,7 +48,7 @@ We reserve the right to correct any errors or mistakes in pricing, even if we ha
 
 All purchases are non-refundable. You can cancel your subscription at any time by logging into your account. Your cancellation will take effect at the end of the current paid term.
 
-If you are unsatisfied with our services, please email us at official.6packprogrammer@gmail.com.
+If you are unsatisfied with our services, please email us at official.techabhi@gmail.com.
 
 
 7. PROHIBITED ACTIVITIES
@@ -122,7 +122,7 @@ We reserve the right, but not the obligation, to: (1) monitor the Site for viola
 
 12. PRIVACY POLICY
 
-We care about data privacy and security. Please review our Privacy Policy: https://youtube.com/6packprogrammer. By using the Site, you agree to be bound by our Privacy Policy, which is incorporated into these Terms of Use. Please be advised the Site is hosted in India. If you access the Site from any other region of the world with laws or other requirements governing personal data collection, use, or disclosure that differ from applicable laws in India, then through your continued use of the Site, you are transferring your data to India, and you agree to have your data transferred to and processed in India.
+We care about data privacy and security. Please review our Privacy Policy: https://youtube.com/techabhi. By using the Site, you agree to be bound by our Privacy Policy, which is incorporated into these Terms of Use. Please be advised the Site is hosted in India. If you access the Site from any other region of the world with laws or other requirements governing personal data collection, use, or disclosure that differ from applicable laws in India, then through your continued use of the Site, you are transferring your data to India, and you agree to have your data transferred to and processed in India.
 
 
 13. COPYRIGHT INFRINGEMENTS
@@ -198,7 +198,7 @@ asasddasd
 dasdasd, UP 4534534
 India
 Phone: __________
-official.6packprogrammer@gmail.com
+official.techabhi@gmail.com
 
 `;
 
