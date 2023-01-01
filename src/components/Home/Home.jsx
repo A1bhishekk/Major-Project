@@ -61,8 +61,6 @@ const Home = () => {
                     src={introVideo}
                 ></video>
             </div>
-
-           
         </section>
     )
 }
