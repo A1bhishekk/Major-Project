@@ -18,10 +18,11 @@ const Home = () => {
                     alignItems="center"
                     spacing={['0', '56']}
                 >
-                    <VStack width={"full"} alignItems={['center', 'flex-end']} mr={['0','4']}>
+                    <VStack width={"full"} alignItems={['center', 'flex-end']} mr={['0','4']} mt={6}>
                         <Heading children="LEARN FROM THE EXPERTS" size={'2xl'} />
-                        <Text children="Find Valuable Courses and Tutorials from the best in the industry" color={"gray.400"}/>
-                        <Text children="At Reasonable Price" alignSelf={['flex-start', 'flex-end']}color={"gray.400"}/>
+                        <Text children="Find Valuable Courses and Tutorials from the best in the industry." color={"gray.400"}/>
+                        <Text children="Making Learning easier and more convenient for you." color={"gray.400"}/>
+                        <Text children="At Reasonable Price." alignSelf={['flex-start', 'flex-end']}color={"gray.400"}/>
                         <Link to="/courses">
                             <Button size={'lg'} colorScheme="teal" mt={6}>Explore Now</Button>
                         </Link>
