@@ -28,7 +28,7 @@ const Login = () => {
     return (
         <Container height={"100vh"}>
             <VStack  justifyContent="center" spacing={'26'} alignItems="center" mt={40}>
-                <Heading children={'Technical Abhi'} />
+                <Heading children={'Technical Abhi'} color="palegreen"/>
 
                 <form onSubmit={submitHandler} style={{ width: '100%' }}>
                     <Box my={'4'}>
@@ -40,7 +40,7 @@ const Login = () => {
                             onChange={e => setEmail(e.target.value)}
                             placeholder="xyz@gmail.com"
                             type={'email'}
-                            focusBorderColor="yellow.500"
+                            focusBorderColor="teal.500"
                         />
                     </Box>
 
@@ -53,7 +53,7 @@ const Login = () => {
                             onChange={e => setPassword(e.target.value)}
                             placeholder="Enter Your Password"
                             type={'password'}
-                            focusBorderColor="yellow.500"
+                            focusBorderColor="teal.500"
                         />
                     </Box>
 
